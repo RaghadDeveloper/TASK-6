@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header , .featured ,.popular , footer{
+    background-color: #f3f2ec;
+}
+/* navbar */
+.navbar {
+    background-color: #f3f2ec !important;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.416);
+}
+.nav-tog {
+    border: none;
+}
+.sp-text {
+    color: #e4b668 !important;
+}
+/* carousel */
+.prev-icon , .next-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid rgba(128, 128, 128, 0.516);
+}
+.carousel-control-prev , .carousel-control-next {
+    width: 7%;
+}
+.hero-card {
+    width: 453px;
+}
+.hero-image {
+    width: 400px;
+}
+.book-title , .best-title{
+    font-size: 62px;
+}
+.read-more {
+    border-color: #e4b668 !important;
+    color: #e4b668;
+}
+/* client */
+.client , .best-book , .subscribe{
+    background-color: #edebe4;
+}
+/* featured */
+.featured{
+    position: relative;
+}
+.title-line1 , .title-line2 {
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0.199);
+}
+.books-group {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.199);
+}
+.book-card {
+    height: 500px;
+    width: 280px;
+}
+.book-cover {
+    background-color: #efeee8;
+    border: 2px solid #eae8db;
+}
+/* best selling book */
+.best-line {
+    width: 60px;
+    height: 5px;
+    background-color: #74642f;
+    border-radius: 10px;
+}
+.best-book-cover , .best-book-card {
+    width: 400px;
+}
+/* popular */
+.popular{
+    height: 190vh;
+    
+}
+.tab-item{
+    color: black;
+}
+.tab-item.active {
+    background-color: #f3f2ec !important;
+    border-bottom: 2px solid #e4b668;
+    border-radius: 0;
+    color: black !important;
+    font-weight: bold;
+}
+/* subuscribe */
+.sub {
+    width: 350px;
+}
+input {
+    background-color: #edebe4;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+/* footer */
+.footer1 {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.199);
+}
+/* media query */
+@media  (max-width: 1684px) {
+    .popular {
+        height: 250vh;
+    }
+}
+@media  (max-width: 1456px) {
+    .popular {
+        height: 260vh;
+    }
+}
+@media  (max-width: 1296px) {
+    .popular {
+        height: 320vh;
+    }
+}
+@media  (max-width: 1200px) {
+    .hero-card {
+        width: 360px;
+    }
+    .hero-image {
+        width: 360px;
+    }
+}
+@media (max-width: 992px) {
+    .carousel-control-prev , .carousel-control-next{
+        top: -600px;
+        width: 15%;
+    }
+    .footer2 {
+        padding: 0 !important;
+        flex-direction: column;
+    }
+    .footer2 div {
+        width: 100% !important;
+    }
+}
+@media  (max-width: 890px) {
+    .popular {
+        height: 610vh;
+    }
+}
+@media  (max-width: 767.5px) {
+    .title-line1 {
+        display: none;
+    }
+}
+@media (max-width: 576px) {
+    .best-title {
+        font-size: 40px;
+    }
+    .best-book-cover , .best-book-card {
+        width: auto;
+    }
+}
