@@ -81,6 +81,10 @@ header , .featured ,.popular , footer{
 .tab-item{
     color: black;
 }
+.tab-item:hover {
+    color: black !important;
+    font-weight: 500;
+}
 .tab-item.active {
     background-color: #f3f2ec !important;
     border-bottom: 2px solid #e4b668;
